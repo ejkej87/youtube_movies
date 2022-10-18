@@ -5,9 +5,17 @@
 
 body {
     height: 100vh;
-    gap: 1em;
+    gap: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.video_container {
+    text-align: center;
+}
+
+figure {
+    margin: 3em;
 }

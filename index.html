@@ -11,10 +11,16 @@
 </head>
 
 <body>
-    <p id="info">Enter youtube video ID bellow and play button</p>
-    <input type="text" id="videoID">
-    <button id="btn">Play</button>
-    <div id="player"></div>
+    <div class="input_place">
+        <input type="text" placeholder="URL, embed URL, playlist URL, partial URL, or ID" />
+        <input type="button" value="Load Video" />
+    </div>
+    <div class="video_container">
+        <output></output>
+        <figure>
+            <!-- injected iframe here -->
+        </figure>
+    </div>
 
 </body>
 
